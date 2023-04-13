@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+
+<body>
+<div class="image_div">
+    <video id="screen" class="image_screen" autoplay playsinline muted></video>
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <button type="button" title="Power menu" onclick="powerButtonHandler()">
+                    <img class="button_image" src="img/power.svg">
+                </button>
+            </td>
+            <td>
+                <button type="button" title="Recent" onclick="recentButtonHandler()">
+                    <img class="button_image" src="img/recent.svg">
+                </button>
+            </td>
+            <td>
+                <button type="button" title="Home screen" onclick="homeButtonHandler()">
+                    <img class="button_image" src="img/home.svg">
+                </button>
+            </td>
+            <td>
+                <button type="button" title="Back" onclick="backButtonHandler()">
+                    <img class="button_image" src="img/back.svg">
+                </button>
+            </td>
+            <td>
+                <button type="button" title="Lock/unlock screen" onclick="lockButtonHandler()">
+                    <img class="button_image" src="img/lock.svg">
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="js/adapter-latest.js"></script>
+<script src="js/mouse.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/general_header">
+        <EditTextPreference
+            app:key="port"
+            app:title="@string/port_title"
+            app:dialogTitle="@string/port_title"
+            app:dialogMessage="@string/port_description"
+            app:defaultValue="8080"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:key="remote_control"
+            app:isPreferenceVisible="false"
+            app:defaultValue="false"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+

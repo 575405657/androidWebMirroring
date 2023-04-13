@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手机Web投屏</string>
+    <string name="urls_header">查看投屏的Web地址</string>
+    <string name="button_remote_control_on">开启远程控制（需要开启无障碍允许此程序）</string>
+    <string name="button_remote_control_off">关闭远程控制</string>
+    <string name="button_start">开始屏幕投屏</string>
+    <string name="button_stop">停止屏幕投屏</string>
+    <string name="no_active_connections">没有Wifi连接</string>
+    <string name="action_settings">设置</string>
+    <string name="general_header">生成</string>
+    <string name="port_title">端口号设置</string>
+    <string name="port_description">提供Web服务的端口号，支持1025-65535，默认8082（需要手机没有端口占用）</string>
+    <string name="adaptive_banner_ad_unit_id_test"></string>
+    <string name="adaptive_banner_ad_unit_id"></string>
+    <string name="ask_admin_permission">提供屏幕锁定的管理员权限</string>
+    <string name="port_in_use">错误: 端口号 %d 被占用，需要重新设置</string>
+</resources>
